@@ -13,6 +13,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .maingrid {
@@ -21,7 +22,6 @@ main {
     grid-template-columns: repeat(3, 250px);
 
     gap: 1,5em;
-    margin: 4vh 10vh;
 }
 
 .maingrid:nth-child(2){
@@ -71,3 +71,23 @@ main {
         display: none;
     }
 }
+
+@media (max-width: 1824px) {
+    .maingrid {
+        margin-top: 30vh;
+    }
+}
+
+
+@media (max-width: 1283px) {
+    .maingrid {
+        margin-top: 40vh;
+    }
+}
+
+@media (max-width: 704px) {
+    .maingrid {
+        margin-top: 90vh;
+    }
+}
+
