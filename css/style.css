@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    
+    background-color: rgb(177, 172, 172);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.maingrid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 250px);
+
+    gap: 1,5em;
+    margin: 4vh 10vh;
+}
+
+.maingrid:nth-child(2){
+    background-color: black;
+}
+
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.bleach {
+ grid-column: span 2;
+}
+
+.naruto {
+   grid-column-start: 2;
+   grid-column: span 2;
+}
+
+.tower {
+    grid-column-start: 1;
+    grid-row: span 2;
+}
+
+.reborn {
+    grid-row: span 2;
+}
