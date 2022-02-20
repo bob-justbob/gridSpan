@@ -74,14 +74,14 @@ main {
 
 @media (max-width: 1824px) {
     .maingrid {
-        margin-top: 30vh;
+        margin-top: 40vh;
     }
 }
 
 
 @media (max-width: 1283px) {
     .maingrid {
-        margin-top: 40vh;
+        margin-top: 120vh;
     }
 }
 
